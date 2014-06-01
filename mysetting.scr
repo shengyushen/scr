@@ -3,7 +3,6 @@ export PATH=.:$PATH
 
 # for ncverilog
 export PATH=/home/ssy/IUS92/tools/bin/64bit:/home/ssy/IUS92/tools.lnx86/bin:/home/ssy/IUS92/bin:$PATH
-#export PATH=/home/ssy/IUS92/tools/bin/64bit:$PATH
 export LM_LICENSE_FILE=/home/ssy/lic/Cadence.test.lic
 
 # for design compiler
