@@ -1,0 +1,44 @@
+rm -rf bbbb*
+mkdir bbbb
+mkdir bbbb/nc_syn
+
+cp -r ~/trunk/h8_nc/nc_syn/scr bbbb/nc_syn
+
+for design in \
+  be  \
+  dbp \
+  dcb \
+  dc_csr \
+  die \
+  dp \
+  dx \
+  gp \
+  lcc \
+  ldt \
+  lnc \
+  lp_crt \
+  mx \
+  np \
+  nr_csr \
+  pd \
+  rpc \
+  rp_crt \
+  si_port \
+  si_cmd \
+  sie \
+  mc \
+  XBAR_TP0_6X8 \
+  XBAR_TP1_4X8 \
+  XBAR_TP2_4X3 \
+  XBAR_TP3_4X2 \
+  XBAR_TP4_4X2 \
+  XBAR_TP3_4X2_S \
+  XBAR_TP4_4X2_S \
+  XBAR_TP5_4X1 \
+;
+do
+  mkdir ./bbbb/nc_syn/${design}
+  cp -r ~/trunk/h8_nc/nc_syn/${design}/scr ./bbbb/nc_syn/${design}
+  
+done
+
