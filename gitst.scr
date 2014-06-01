@@ -1,0 +1,13 @@
+#!/bin/bash
+if [ $# != 0 ] ; then 
+	echo "Usage : gitpull.scr in current dir"
+	exit 0
+fi
+if [ ! -d .git ]; then 
+	echo "Usage : current dir must contain .git"
+	exit 0
+fi
+
+git status
+
+
