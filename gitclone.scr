@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ $# != 1 ] ; then 
+	echo "Usage : gitclone.scr <reposite name>"
+	exit 0
+fi
+
+gitaddress="git@github.com:shengyushen/$1.git"
+echo "cloning $gitaddress"
+git clone $gitaddress $1
+

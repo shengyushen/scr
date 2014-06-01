@@ -1,0 +1,17 @@
+#!/bin/bash
+if [ $# != 0 ] ; then 
+	echo "Usage : gitpush.scr in current dir"
+	exit 0
+fi
+if [ ! -d .git ]; then 
+	echo "Usage : current dir must contain .git"
+	exit 0
+fi
+
+currentdir=`pwd|awk -F/ '{print $NF}'`
+#echo $currentdir
+
+gitaddress="git@github.com:shengyushen/${currentdir}.git"
+echo "pushing $gitaddress"
+git push $gitaddress master
+
