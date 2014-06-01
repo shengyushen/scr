@@ -1,0 +1,1 @@
+grep "Warning:" $1|grep -v VER-318 |grep -v VER-936|grep -v ELAB-311|grep -v LINT-29|grep -v LINT-29|grep -v LINT-31|grep -v "(LINT-2)"|grep -v LINT-28|grep -v LINT-32|grep -v LINT-33|grep -v LINT-52|grep -v LINT-10|grep -v "(LINT-1)"

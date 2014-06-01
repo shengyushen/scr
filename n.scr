@@ -1,0 +1,15 @@
+cd ~/h8_nc/nc_source/
+rm -f *.tgz
+tar -zcvf pxfisrc.tgz pxfi
+mv pxfisrc.tgz ~
+
+cd ~/h8_nc/nc_syn/
+rm -f *.tgz
+tar -zcvf pxfisyn.tgz pxfi
+mv pxfisyn.tgz ~
+
+cd ~/h8_nc/nc_testbench/
+rm -f *.tgz
+tar -zcvf pxfitb.tgz pxfi
+mv pxfitb.tgz ~
+

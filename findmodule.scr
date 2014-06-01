@@ -1,0 +1,7 @@
+#echo $1
+inner_findmodule.scr $1 > /tmp/$1_search.result
+x=`wc -l /tmp/$1_search.result | awk '{print \$1}'`
+cat /tmp/$1_search.result
+#if [ $x -eq 1 ]; then 
+#  awk '{system("nedit " $1 " &")}' /tmp/$1_search.result
+#fi

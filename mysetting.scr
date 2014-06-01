@@ -1,0 +1,28 @@
+export PATH=~/scr:$PATH
+export PATH=.:$PATH
+
+# for ncverilog
+export PATH=/home/ssy/IUS92/tools/bin/64bit:/home/ssy/IUS92/tools.lnx86/bin:/home/ssy/IUS92/bin:$PATH
+#export PATH=/home/ssy/IUS92/tools/bin/64bit:$PATH
+export LM_LICENSE_FILE=/home/ssy/lic/Cadence.test.lic
+
+# for design compiler
+export PATH=/home/ssy/syn_2011/amd64/syn/bin:$PATH
+#export LM_LICENSE_FILE=~/lic/key.synopsys.200406sp2:$LM_LICENSE_FILE
+
+# for formality
+#export PATH=/CAD/formality/bin:$PATH
+export PATH=/home/ssy/fm_2011/bin/:$PATH
+export LM_LICENSE_FILE=/home/ssy/lic/synopsys.dat:$LM_LICENSE_FILE
+
+# for vis
+export VIS_LIBRARY_PATH=~/allvis/vis-2.3/share
+
+# for abc
+export PATH=~/abc:$PATH
+
+# for rcvtr
+export PATH=~/allsync/outsrc/rcvtr:$PATH
+
+# for gvim global menu
+#function gvim () { (/usr/bin/gvim -f "$@" &) }

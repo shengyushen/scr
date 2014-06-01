@@ -1,0 +1,1 @@
+grep Warning alllog |grep -v UID-119|grep -v UID-445|grep -v TIM-107|grep -v TIM-108 |grep -v TIM-164|grep -v TIM-134|grep -v TIM-111|grep -v VER-314 |grep -v VER-318|grep -v VER-130|grep -v VER-936|grep -v VER-61|grep -v VER-941|grep -v UID-3

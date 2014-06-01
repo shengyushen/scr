@@ -1,0 +1,6 @@
+find /nio_nr/common |grep $1|grep -v svn|grep "\.v$"|grep "\/$1\.v$"
+find /nio_nr/nr_source |grep $1|grep -v svn|grep "\.v$"|grep "\/$1\.v$"
+find /nio_nr/nio_source |grep $1|grep -v svn|grep "\.v$"|grep "\/$1\.v$"
+find /nio_nr/IBM_Cu45HP/memory|grep $1|grep -v svn|grep "\/$1\.v$"
+find /nio_nr/IBM_Cu45HP/simlib/ibm_cu45hp/rel4.0/*/verilog|grep $1|grep -v svn|grep "\/$1\.v$"
+#grep -r $1 /nio_nr/IBM_Cu45HP/simlib/ibm_cu45hp/rel4.0/*/verilog |grep -v "\.svn"|grep module

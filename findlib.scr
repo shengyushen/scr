@@ -1,0 +1,3 @@
+grep -r $1  ~/ibm_cu45hp/rel4.0/*/lib|grep -v "\.svn"|grep cell|grep -v cell_|grep PwcV090T125
+grep -r $1  /nio_nr/IBM_Cu45HP/memory/|grep -v "\.svn"|grep cell|grep -v cell_|grep PwcV090T125
+

@@ -1,0 +1,6 @@
+while [ $# -gt 0 ]
+do
+  findmodule.scr $1
+  shift
+done
+

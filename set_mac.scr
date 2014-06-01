@@ -1,0 +1,1 @@
+sudo /sbin/ifconfig eth0  hw ether 286ed49781f9

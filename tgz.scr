@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ $# != 1 ]
+then
+echo "Usage : tgz.scr dirname"
+exit
+fi
+
+tm=`date|awk '{split($4,arr,":");print $NF$2$3 "_" arr[1] arr[2] arr[3]}'`
+name=$1_$tm
+echo $name
+
+
+tar -zcvf $name.tgz $1 --exclude INCA_libs --exclude waves.shm --exclude .svn 
