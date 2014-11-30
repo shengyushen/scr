@@ -1,0 +1,4 @@
+# for ncverilog
+export PATH=/home/sysheni/EDA_tools/IUS92/tools/bin/64bit:/home/syshen/EDA_tools/IUS92/tools.lnx86/bin:/home/syshen/EDA_tools/IUS92/bin:$PATH
+export LM_LICENSE_FILE=~/lic/cds_all.lic:$PATH
+
