@@ -11,4 +11,4 @@ name=$1_$tm
 echo $name
 
 
-tar -zcvf $name.tgz $1 --exclude INCA_libs --exclude waves.shm --exclude .svn 
+tar -zcvf $name.tgz $1 --exclude INCA_libs --exclude waves.shm --exclude .svn  --exclude .git

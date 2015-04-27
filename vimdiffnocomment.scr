@@ -1,0 +1,4 @@
+sed 's/ # .*$//g' $1|sed 's/^#.*$//g' > /tmp/h1
+sed 's/ # .*$//g' $2|sed 's/^#.*$//g' > /tmp/h2
+vimdiff /tmp/h1 /tmp/h2 
+

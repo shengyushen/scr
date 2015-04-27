@@ -1,0 +1,5 @@
+git config --global user.name "shengyushen"
+git config --global user.email "shengyushen@gmail.com"
+git config --global core.autocrlf false
+git config --global core.filemode false
+git config --global color.ui true
