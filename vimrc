@@ -7,4 +7,5 @@ set background=dark
 highlight Normal ctermfg=grey ctermbg=black
 set ruler
 set matchtime=5
+set nu
 
