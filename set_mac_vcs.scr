@@ -1,0 +1,4 @@
+/sbin/ifconfig eth0 down
+#/sbin/ifconfig eth0 hw ether 00E0814C38B5
+/sbin/ifconfig eth0 hw ether 0019B9584EF4
+/sbin/ifconfig eth0 up

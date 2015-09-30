@@ -10,6 +10,14 @@ export PATH=/home/syshen/EDA_tools/syn_2011/amd64/syn/bin:$PATH
 export PATH=/home/syshen/EDA_tools/fm_2011/bin/:$PATH
 export LM_LICENSE_FILE=/home/syshen/lic/synopsys.dat:$LM_LICENSE_FILE
 
+# for vcs
+export PATH=/home/syshen/EDA_tools/synopsys/H-2013.06/amd64/bin:$PATH
+
+#for ncverilog
+export PATH=/home/syshen/EDA_tools/IUS92/tools.lnx86/bin:$PATH
+export PATH=/home/syshen/EDA_tools/IUS92/tools.lnx86/bin/64bit:$PATH
+export LM_LICENSE_FILE=/home/syshen/lic/cds_all.lic:$LM_LICENSE_FILE
+
 # for vis
 export VIS_LIBRARY_PATH=~/allvis/vis-2.3/share
 
