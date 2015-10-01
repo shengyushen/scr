@@ -1,0 +1,3 @@
+#!/bin/bash
+irun  -gui -access rwc -input restore.tcl $*
+
