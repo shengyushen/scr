@@ -1,3 +1,4 @@
 #!/bin/bash
-irun  -gui -access rwc -input restore.tcl $*
+rm -rf INCA_libs/ waves.shm/ *.log
+irun -nocopyright -gui -access rwc  $*
 
