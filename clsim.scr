@@ -1,0 +1,2 @@
+rm -rf INCA_libs/ cov_work waves.shm/ *.log *.key RUN_NC *.diag  *.args .formalrun .ifv
+
