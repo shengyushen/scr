@@ -1,4 +1,4 @@
-export PATH=~/scr:$PATH
+export PATH=/home/syshen/mywork/scr:$PATH
 export PATH=.:$PATH
 
 # for design compiler
@@ -8,7 +8,7 @@ export PATH=/home/syshen/EDA_tools/syn_2011/amd64/syn/bin:$PATH
 # for formality
 #export PATH=/CAD/formality/bin:$PATH
 export PATH=/home/syshen/EDA_tools/fm_2011/bin/:$PATH
-export LM_LICENSE_FILE=/home/syshen/lic/synopsys.dat:$LM_LICENSE_FILE
+export LM_LICENSE_FILE=/home/syshen/mywork/lic/synopsys.dat:$LM_LICENSE_FILE
 
 # for vcs
 export PATH=/home/syshen/EDA_tools/synopsys/H-2013.06/amd64/bin:$PATH
@@ -27,23 +27,25 @@ export PATH=${INCISIVE_ROOT}/tools/bin:$PATH
 export PATH=${INCISIVE_ROOT}/tools/bin/64bit:$PATH
 
 #export LM_LICENSE_FILE=/home/syshen/lic/Cadence.LicServer.00E08178BFDE.lic:$LM_LICENSE_FILE
-export LM_LICENSE_FILE=/home/syshen/lic/cds_newlic.dat:$LM_LICENSE_FILE
+export LM_LICENSE_FILE=/home/syshen/mywork/lic/cds_newlic.dat:$LM_LICENSE_FILE
 
 
-# for UVM
-#export UVM_HOME=/home/syshen
+
+
+
+export PATH=$PATH:/home/syshen/mywork/gap4r7/bin
 
 # for vis
-export VIS_LIBRARY_PATH=~/allvis/vis-2.3/share
+export VIS_LIBRARY_PATH=/home/syshen/mywork/allvis/vis-2.3/share
 
 # for abc
-export PATH=~/abc:$PATH
+export PATH=/home/syshen/mywork/abc:$PATH
 
 # for rcvtr
-export PATH=~/allsync/outsrc/rcvtr:$PATH
+# export PATH=~/allsync/outsrc/rcvtr:$PATH
 
 # for abc
-export PATH=~/alanmi-abc-00a38ae622c2:$PATH
+export PATH=/home/syshen/mywork/alanmi-abc-00a38ae622c2:$PATH
 
 # for gvim global menu
 #function gvim () { (/usr/bin/gvim -f "$@" &) }
