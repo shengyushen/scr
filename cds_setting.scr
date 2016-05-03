@@ -1,0 +1,19 @@
+# for vcs
+export PATH=/home/syshen/EDA_tools/synopsys/H-2013.06/amd64/bin:$PATH
+
+#for ncverilog
+#export PATH=/home/syshen/EDA_tools/IUS92/tools.lnx86/bin:$PATH
+#export PATH=/home/syshen/EDA_tools/IUS92/tools.lnx86/bin/64bit:$PATH
+#export LM_LICENSE_FILE=/home/syshen/lic/cds_all.lic:$LM_LICENSE_FILE
+
+
+#for incisive 2012
+#I use this to replace ius92 
+export INCISIVE_ROOT=/home/syshen/EDA_tools/INCISIV12.20.009
+export PATH=${INCISIVE_ROOT}/bin:$PATH
+export PATH=${INCISIVE_ROOT}/tools/bin:$PATH
+export PATH=${INCISIVE_ROOT}/tools/bin/64bit:$PATH
+
+#export LM_LICENSE_FILE=/home/syshen/lic/Cadence.LicServer.00E08178BFDE.lic:$LM_LICENSE_FILE
+export LM_LICENSE_FILE=/home/syshen/mywork/lic/cds_newlic.dat:$LM_LICENSE_FILE
+
